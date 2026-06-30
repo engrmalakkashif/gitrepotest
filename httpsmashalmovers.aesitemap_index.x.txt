@@ -1,0 +1,10 @@
+https://mashalmovers.ae/sitemap_index.xml
+
+https://mashalmovers.ae/robot.txt
+
+https://mashalmovers.ae/llms.txt 
+
+tthese are exist and working fine, 
+
+
+
