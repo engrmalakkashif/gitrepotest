@@ -1,1 +1,19 @@
-this is test text 
+check
+
+git config --global user.name "Name"   -> To connect Git with GitHub
+ git config --global user.email "email"
+git init   -> to initialize (U mean untracked mean no tracking)
+git add . (or specific file/folder)  -> from Working Dir  to add in stagging [(A) mean index adding]
+git commit -m "Git workflow done" -> for Store in local repo
+git branch -M main -> to rename master branch to main
+git remote add origin url (GitHub repo link) -> to add remote repo
+git push -u origin main -> U se for 1st time after that
+git push -> just for push as git know about workflow
+git status
+git restore . or specific file name -> for restore/undo from working/ stagging dir
+git restore --staged app.js -> for untracked
+git log or git log --oneline -> for hash value etc q for terminate
+git revert hash code -> undo uncommit from GitHub
+git reset HEAD~1 -> 1 back with previous commit and undo all changes
+git reset --soft (mixed) HEAD~1
+git config alias.b branch ( create shortcut for branch b ) or you can create in vim .gitconfig and create)
